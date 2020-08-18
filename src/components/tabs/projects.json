@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"Amazon Prototype",
+            "description":"Working Prototype of real Amazon application",
+            "image":""
+        },
+        {
+            "id":2,
+            "name":"Handshake Prototype",
+            "description":"Working Prototype of real Handshake application",
+            "image":""
+        },
+        {
+            "id":3,
+            "name":"Healing Hearts",
+            "description":"A common portal for donating and raising donations for NGOs",
+            "image":""
+        }
+    ]
+}

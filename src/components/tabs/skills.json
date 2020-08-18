@@ -1,0 +1,80 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "Front-end",
+            "list": [
+                "React.js",
+                "HTML5",
+                "CSS3",
+                "JQuery",
+                "GraphQL"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Back-end",
+            "list": [
+                "Node.js",
+                "REST Web Services",
+                "KafkaMQ",
+                "Spring Boot",
+                "Python Flask"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Languages",
+            "list": [
+                "Javascript",
+                "Java",
+                "Unix",
+                "C",
+                "Python"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Database",
+            "list": [
+                "MySQL",
+                "MongoDB",
+                "OracleDB",
+                "Redis",
+                "Solr"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Deployment",
+            "list": [
+                "Docker",
+                "Amazon EC2"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Source Control",
+            "list": [
+                "GitHub",
+                "Bitbucket"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Testing Tools",
+            "list": [
+                "JMeter",
+                "Mocha"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Data Visualization",
+            "list": [
+                "Plotly",
+                "Tableau"
+            ]
+        }
+    ]
+}
