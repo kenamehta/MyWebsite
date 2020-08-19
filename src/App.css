@@ -165,6 +165,9 @@ heading-primary {
 .github_style:hover{
   transform: scale(2);
 }
+.github_style_modal:hover{
+  transform: scale(1.05);
+}
 .view-project-style{
   border-style: solid;
   border-color: white;

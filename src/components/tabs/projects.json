@@ -6,7 +6,9 @@
             "description":"Working Prototype of real Amazon application",
             "image":"amazon_cover.png",
             "github":"https://github.com/kenamehta/AmazonPrototype",
-            "svg":"github.svg"
+            "svg":"github.svg",
+            "modalImage":"amazon_modal.jpg",
+            "dialogData":"<div><h6>Technology Stack:</h6><ul><li>Front-end: React.js, Redux</li><li>Back-end: Node.js, Express.js, Kafka MQ</li><li>Database: MongoDB, MySQL, Redis</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul></div><div><h6>Personas</h6><ul><li>Customer<ul><li>Create new profile</li><li>Save Cards and Address</li><li>Add to cart</li><li>Order and CheckOut</li></ul></li><li>Seller<ul><li>Manage Inventory and Prices</li><li>View Statistics</li><li>Accept Order</li><li>Update Tracking Status</li></ul></li><li>Admin<ul><li>Add/Remove Categories</li><li>View Analytics Dashboard</li></ul></li></ul></div>"
         },
         {
             "id":2,
@@ -14,7 +16,9 @@
             "description":"Working Prototype of real Handshake application",
             "image":"handshake_cover.png",
             "github":"https://bitbucket.org/KenaMehta/handshake_lab2/src/master/",
-            "svg":"bitbucket.svg"
+            "svg":"bitbucket.svg",
+            "modalImage":"handshake_modal.jpg",
+            "dialogData":"<div>Developed the code in 3 phases<h6>Phase 1 Technology Stack:</h6><ul><li>Front-end: React.js, Redux</li><li>Back-end: Node.js, Express.js, Kafka MQ</li><li>Database: MongoDB, MySQL, Redis</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul></div><div><h6>Personas</h6><ul><li>Customer<ul><li>Create new profile</li><li>Save Cards and Address</li><li>Add to cart</li><li>Order and CheckOut</li></ul></li><li>Seller<ul><li>Manage Inventory and Prices</li><li>View Statistics</li><li>Accept Order</li><li>Update Tracking Status</li></ul></li><li>Admin<ul><li>Add/Remove Categories</li><li>View Analytics Dashboard</li></ul></li></ul></div>"
         },
         {
             "id":3,
@@ -22,7 +26,8 @@
             "description":"A common portal for donating and raising donations for NGOs",
             "image":"hh_cover.png",
             "github":"https://github.com/kenamehta/Healing-Hearts",
-            "svg":"github.svg"
+            "svg":"github.svg",
+            "modalImage":"hh_modal.jpg"
         }
     ]
 }
