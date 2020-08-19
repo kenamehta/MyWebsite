@@ -15,7 +15,7 @@ class Home extends Component {
                 <Welcome id="welcome_section"/>
                 <Skill id="skill_section"/>
                 <Project id="project_section"/>
-                <About/>
+                <About id="aboutme_section"/>
                 <Contact/>
             </div>);
     }

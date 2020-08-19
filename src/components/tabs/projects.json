@@ -4,19 +4,25 @@
             "id":1,
             "name":"Amazon Prototype",
             "description":"Working Prototype of real Amazon application",
-            "image":""
+            "image":"amazon_cover.png",
+            "github":"https://github.com/kenamehta/AmazonPrototype",
+            "svg":"github.svg"
         },
         {
             "id":2,
             "name":"Handshake Prototype",
             "description":"Working Prototype of real Handshake application",
-            "image":""
+            "image":"handshake_cover.png",
+            "github":"https://bitbucket.org/KenaMehta/handshake_lab2/src/master/",
+            "svg":"bitbucket.svg"
         },
         {
             "id":3,
             "name":"Healing Hearts",
             "description":"A common portal for donating and raising donations for NGOs",
-            "image":""
+            "image":"hh_cover.png",
+            "github":"https://github.com/kenamehta/Healing-Hearts",
+            "svg":"github.svg"
         }
     ]
 }

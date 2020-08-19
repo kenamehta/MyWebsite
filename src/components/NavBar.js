@@ -57,7 +57,7 @@ class NavBar extends Component {
                         <Nav.Link className="mr-2">
                             <Link
                                 activeClass="active"
-                                to="section1"
+                                to="aboutme_section"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}

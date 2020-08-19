@@ -33,7 +33,7 @@ class Welcome extends Component {
                             onMouseOver={() => this.setState({ bool: true })}
                             onMouseOut={() => this.setState({ bool: false })}
                             style={{ transform: `${this.state.bool ? 'scale(1.2,1.2)' : 'scale(1,1)'}` }}>
-                            <span>
+                        <span>
 
                                 View my work
 
