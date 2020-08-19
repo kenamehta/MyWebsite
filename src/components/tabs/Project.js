@@ -106,7 +106,7 @@ export default function Project() {
                                             <DialogTitle id="responsive-dialog-title">{elem.name}</DialogTitle>
                                             <DialogContent>
                                                 <div style={{ borderStyle: "solid", borderColor: "black" }}>
-                                                    <img height="290px" src={elem.modalImage}></img>
+                                                    <img width="500px" src={elem.modalImage}></img>
                                                 </div>
                                                 <DialogContentText>
                                                     <div
