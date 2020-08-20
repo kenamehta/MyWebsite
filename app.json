@@ -1,0 +1,12 @@
+{
+    "name": "kena mehta",
+    "description": "kena mehta website deployment",
+    "repository": "https://github.com/kenamehta/MyWebsite",
+    "logo": "https://github.com/kenamehta/MyWebsite/public/logo.png",
+    "keywords": [
+        "react",
+        "portfolio",
+        "kena",
+        "mehta"
+    ]
+}
