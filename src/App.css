@@ -94,7 +94,8 @@ heading-primary {
   min-height:100vh;
 }
 .skill-bg{
-   text-align: center; 
+   text-align: center;
+   min-height: 100vh; 
 }
 .main-div{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
