@@ -146,22 +146,22 @@ class About extends Component {
                         </div>
                         <div className="adventure_bg">
                             <div className="row mt-5">
-                                <div className="img-border-style col-lg-4 col-sm-2">
+                                <div className="img-border-style col-lg-4 col-md-6 col-sm-12">
                                     <img alt="" className="adv-img-style" height="200vh" src="bungee.gif"></img>
                                 </div>
-                                <div className="img-border-style col-lg-4 col-sm-2">
+                                <div className="img-border-style col-lg-4 col-md-6 col-sm-12">
                                     <img alt="" className="adv-img-style" height="200vh" src="skydive1.jpg"></img>
                                 </div>
-                                <div className="img-border-style col-lg-4 col-sm-2">
+                                <div className="img-border-style col-lg-4 col-md-6 col-sm-12">
                                     <img alt="" className="adv-img-style" height="200vh" src="kayak.gif"></img>
                                 </div>
-                                <div className="img-border-style col-lg-4 col-sm-2">
+                                <div className="img-border-style col-lg-4 col-md-6 col-sm-12">
                                     <img alt="" className="adv-img-style" height="200vh" src="navratri.jpg"></img>
                                 </div>
-                                <div className="img-border-style col-lg-4 col-sm-2">
+                                <div className="img-border-style col-lg-4 col-md-6 col-sm-12">
                                     <img alt="" className="adv-img-style" height="200vh" src="paris.jpg"></img>
                                 </div>
-                                <div className="img-border-style col-lg-4 col-sm-2">
+                                <div className="img-border-style col-lg-4 col-md-6 col-sm-12">
                                     <img alt="" className="adv-img-style" height="200vh" src="Aseema.jpg"></img>
                                 </div>
                             </div>
