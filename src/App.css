@@ -15,16 +15,6 @@
 .navbar-collapse.in {
   display: block !important;
 }
-.section-dark {
-  background: #333;
-  color: white;
-}
-
-.section-content {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 40px;
-}
 
 .welcome_background{
   background-image: url("./components/images/space3.jpg");
@@ -64,6 +54,7 @@ heading-primary {
 @media screen and (max-width: 1100px) {
   .heading-primary--main {
     font-size: 20pt;
+    line-height: 25pt;
   }
 }
 .particles_background{
