@@ -50,6 +50,14 @@ class Welcome extends Component {
                         </span>
                     </Link>
                 </div>
+                <div style={{ position: "fixed", bottom: "120px", right: "20px" }}>
+                    <a
+                        href="Resume_Kena_Mehta.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img className="fixed_linkedin e_style" height="40px" src="resume.png" alt="Resume"></img>
+                    </a>
+                </div>
                 <div style={{ position: "fixed", bottom: "20px", right: "20px" }}>
                     <a
                         href="https://www.linkedin.com/in/kenamehta/"
@@ -63,7 +71,7 @@ class Welcome extends Component {
                         href="https://github.com/kenamehta/"
                         target="_blank"
                         rel="noopener noreferrer">
-                        <img className="fixed_linkedin e_style" height="40px" src="github.svg" alt="Github"></img>
+                        <img className="fixed_linkedin e_style" height="40px" src="github_general.png" alt="Github"></img>
                     </a>
                 </div>
             </div>

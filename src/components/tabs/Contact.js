@@ -80,7 +80,35 @@ class Contact extends Component {
                     </Col>
                 </Row>
                 <Row className="other-contact mt-3" float="center">
-                    <div>You can also reach out to me via <a href="https://www.linkedin.com/in/kenamehta/" target="_blank" rel="noopener noreferrer"><img className="e_style" height="30px" src="linkedin.svg" alt="LinkedIn"></img></a> or kenamehta.work@gmail.com</div>
+                    <div>You can also reach out to me via
+                        <a
+                            href="https://www.linkedin.com/in/kenamehta/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                className="e_style"
+                                height="30px"
+                                src="linkedin.svg" alt="LinkedIn">
+                            </img>
+                        </a> | <a
+                            href="https://github.com/kenamehta"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                className="e_style"
+                                height="25px"
+                                src="github_general.png" alt="LinkedIn">
+                            </img>
+                        </a> | <a
+                            href="Resume_Kena_Mehta.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                className="e_style"
+                                height="25px"
+                                src="resume.png" alt="LinkedIn">
+                            </img>
+                        </a> | kenamehta.work@gmail.com</div>
                 </Row>
             </div>
         );
