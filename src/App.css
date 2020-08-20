@@ -1,3 +1,4 @@
+
 :root {
   --off-white: #fafafa;
 }
@@ -11,12 +12,7 @@
 .nav-logo:hover {
   cursor: pointer;
 } 
-.navbar-pop{
-  z-index: 999;
-}
-.data-div{
-  z-index: -2;
-}
+
 .section-dark {
   background: #333;
   color: white;

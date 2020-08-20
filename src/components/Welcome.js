@@ -16,7 +16,7 @@ class Welcome extends Component {
                 <div className="main_enclose">
                     <div className="header__text-box">
                         <div className="heading-primary ml-2">
-                            <div className="heading-primary--main">Hi, I'm <span className="name-text">Kena Mehta</span>. <br /> I am a Full-Stack Developer!</div>
+                            <div className="heading-primary--main">Hi, I'm <span className="name-text">Kena Mehta</span>, <br /> A Full-Stack Developer!</div>
                         </div>
                     </div>
                     <br />
