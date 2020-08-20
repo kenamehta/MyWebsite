@@ -39,7 +39,7 @@ class Skill extends Component {
                                                 className="card_title"
                                                 title={elem.name}
                                             />
-                                            <img height="40px" src={elem.img}></img>
+                                            <img alt="" height="40px" src={elem.img}></img>
                                             <CardContent>
                                                 <ul align="left">
                                                     {elem.list.map(l => (<li>{l}</li>))}

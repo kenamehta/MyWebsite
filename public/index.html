@@ -24,8 +24,15 @@
 
   <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+  <!-- email -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("<YOUR USER ID>"); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
+    })();
+  </script>
   
-  <!-- <script src="pathseg.js"></script> -->
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

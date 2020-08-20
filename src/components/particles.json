@@ -1,17 +1,21 @@
 {
     "particles": {
         "number": {
-            "value": 170
+            "value": 300
         },
         "size": {
-            "value": 3
-        }
+            "value": 2
+        },
+        "line_linked": {
+            "enable": false
+        },
+        "speed": 1
     },
     "interactivity": {
         "events": {
             "onhover": {
                 "enable": true,
-                "mode": "repulse"
+                "mode": "grab"
             }
         }
     }

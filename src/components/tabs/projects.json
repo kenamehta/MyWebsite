@@ -7,7 +7,7 @@
             "image":"amazon_cover.png",
             "github":"https://github.com/kenamehta/AmazonPrototype",
             "svg":"github.svg",
-            "modalImage":"amazon_modal.jpg",
+            "modalImage":["amazon_modal.jpg","amazon_modal2.jpg","amazon_modal3.jpg","amazon_modal4.jpg","amazon_modal5.jpg"],
             "dialogData":"<div><h6>Technology Stack:</h6><ul><li>Front-end: React.js, Redux</li><li>Back-end: Node.js, Express.js, Kafka MQ</li><li>Database: MongoDB, MySQL, Redis</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul></div><div><h6>Personas</h6><ul><li>Customer<ul><li>Create new profile</li><li>Save Cards and Address</li><li>Add to cart</li><li>Order and CheckOut</li></ul></li><li>Seller<ul><li>Manage Inventory and Prices</li><li>View Statistics</li><li>Accept Order</li><li>Update Tracking Status</li></ul></li><li>Admin<ul><li>Add/Remove Categories</li><li>View Analytics Dashboard</li></ul></li></ul></div>"
         },
         {
@@ -17,8 +17,8 @@
             "image":"handshake_cover.png",
             "github":"https://bitbucket.org/KenaMehta/handshake_lab2/src/master/",
             "svg":"bitbucket.svg",
-            "modalImage":"handshake_modal.jpg",
-            "dialogData":"<div>Developed the code in 3 phases<h6>Phase 1 Technology Stack:</h6><ul><li>Front-end: React.js, Redux</li><li>Back-end: Node.js, Express.js, Kafka MQ</li><li>Database: MongoDB, MySQL, Redis</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul></div><div><h6>Personas</h6><ul><li>Customer<ul><li>Create new profile</li><li>Save Cards and Address</li><li>Add to cart</li><li>Order and CheckOut</li></ul></li><li>Seller<ul><li>Manage Inventory and Prices</li><li>View Statistics</li><li>Accept Order</li><li>Update Tracking Status</li></ul></li><li>Admin<ul><li>Add/Remove Categories</li><li>View Analytics Dashboard</li></ul></li></ul></div>"
+            "modalImage":["handshake_modal.jpg","handshake_modal2.jpg","handshake_modal3.jpg","handshake_modal4.jpg","handshake_modal5.jpg","handshake_modal6.jpg","handshake_modal7.jpg"],
+            "dialogData":"<div><a href=\"https://www.youtube.com/watch?v=J4DmR9iryqo\" target=\"_blank\">Click here for Youtube link</a></div><h5>Developed the code in 3 phases<h5><h6>Phase 1 Technology Stack:</h6><ul><li>Front-end: React.js</li><li>Back-end: Node.js, Express.js</li><li>Database: MySQL</li><li>Deployment: Docker, Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul><h6>Phase 2 Technology Stack:</h6><ul><li>Front-end: React.js, Redux, Thunk</li><li>Back-end: Node.js, Express.js, Kafka MQ, JWT, Passport</li><li>Database: MongoDB</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul><h6>Phase 3 Technology Stack:</h6><ul><li>Front-end: React.js, GraphQL</li><li>Back-end: Node.js, Express.js</li><li>Database: MongoDB</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul></h5><h6>Personas</h6><ul><li>Student<ul><li>Create/Update profile</li><li>Apply for jobs/events</li><li>Upload resume</li><li>Message other student/company</li><li>View other students/company</li></ul></li><li>Company<ul><li>Create/Update profile</li><li>Add new jobs/events</li><li>Message students</li><li>View student's profile/resume</li><li>Update application status</li></ul></li></ul>"
         },
         {
             "id":3,
@@ -27,7 +27,8 @@
             "image":"hh_cover.png",
             "github":"https://github.com/kenamehta/Healing-Hearts",
             "svg":"github.svg",
-            "modalImage":"hh_modal.jpg"
+            "modalImage":["hh_modal.png","hh_modal2.png","hh_modal3.png","hh_modal4.png","hh_modal5.png","hh_modal6.png","hh_modal7.png"],
+            "dialogData":"<div><h6>Technology Stack:</h6><ul><li>Front-end: React.js, Redux, Localization, Pagination</li><li>Back-end: Node.js, Express.js</li><li>Database: MongoDB</li><li>Deployment: Amazon EC2</li><li>Testing: JUnit, Mocha</li></ul></div><div><h6>Personas</h6><ul><li>Donor<ul><li>Create new profile</li><li>View fundraisers</li><li>Fund fundraisers</li><li>View analytics</li><li>Message NGOs</li></ul></li><li>NGO<ul><li>Create Fundraisers</li><li>Message donors</li><li>View analytics</li></ul></li></ul></div>"
         }
     ]
 }

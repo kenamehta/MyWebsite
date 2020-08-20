@@ -11,12 +11,14 @@ class Home extends Component {
     render() {
         return (
             <div className="main-div">
-                <NavBar/>
-                <Welcome id="welcome_section"/>
-                <Skill id="skill_section"/>
-                <Project id="project_section"/>
-                <About id="aboutme_section"/>
-                <Contact/>
+                <NavBar />
+                <div className="data-div">
+                    <Welcome id="welcome_section" />
+                    <Skill id="skill_section" />
+                    <Project id="project_section" />
+                    <About id="aboutme_section" />
+                    <Contact />
+                </div>
             </div>);
     }
 }

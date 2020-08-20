@@ -11,6 +11,7 @@ class Welcome extends Component {
         return (
             <div id="welcome_section" className="welcome_background">
                 <Particles
+                    style={{ position: "absolute" }}
                     params={particles} />
                 <div className="main_enclose">
                     <div className="header__text-box">
@@ -33,7 +34,7 @@ class Welcome extends Component {
                             onMouseOver={() => this.setState({ bool: true })}
                             onMouseOut={() => this.setState({ bool: false })}
                             style={{ transform: `${this.state.bool ? 'scale(1.2,1.2)' : 'scale(1,1)'}` }}>
-                        <span>
+                            <span>
 
                                 View my work
 
@@ -48,6 +49,22 @@ class Welcome extends Component {
                             </span>
                         </span>
                     </Link>
+                </div>
+                <div style={{ position: "fixed", bottom: "20px", right: "20px" }}>
+                    <a
+                        href="https://www.linkedin.com/in/kenamehta/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img className="fixed_linkedin e_style" height="40px" src="linkedin.svg" alt="LinkedIn"></img>
+                    </a>
+                </div>
+                <div style={{ position: "fixed", bottom: "70px", right: "20px" }}>
+                    <a
+                        href="https://github.com/kenamehta/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img className="fixed_linkedin e_style" height="40px" src="github.svg" alt="Github"></img>
+                    </a>
                 </div>
             </div>
         );

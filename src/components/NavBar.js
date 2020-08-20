@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from "./images/KM.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Navbar, Nav } from "react-bootstrap";
 
 
 class NavBar extends Component {
@@ -12,77 +10,71 @@ class NavBar extends Component {
 
     render() {
         return (
-            <div>
-            <Navbar fixed="top" className="navbar-style" collapseOnSelect expand="sm" bg="light" variant="light">
-                <Navbar.Brand>
-
+            <div id="Navbar">
+                <nav className="navbar-style navbar navbar-expand-lg navbar-light bg-dark static-top fixed-top">
                     <img
-                        src={logo}
+                        src="logo.png"
                         className="nav-logo"
                         alt="Logo"
                         onClick={this.scrollToTop}
                     />
-                </Navbar.Brand>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <Nav className="mr-auto">
-                    </Nav>
-                    <Nav>
-                        <Nav.Link className="mr-2 ">
-                            <Link
-                                activeClass="active"
-                                to="skill_section"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >
-                                Skills
-                        </Link>
-                        </Nav.Link>
-                        <Nav.Link className="mr-2 ">
-                            <Link
-                                activeClass="active"
-                                to="project_section"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >
-                                Projects
-                        </Link>
-                        </Nav.Link>
-                        <Nav.Link className="mr-2">
-                            <Link
-                                activeClass="active"
-                                to="aboutme_section"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >
-                                About me
-                            </Link>
-                        </Nav.Link>
-                        <Nav.Link>
-                            <Link
-                                activeClass="active"
-                                to="section1"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >
-                                Contact
-                            </Link>
-                        </Nav.Link>
-                    </Nav>
-                </div>
-            </Navbar>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item ml-2 mr-4">
+                                <Link
+                                    activeClassName="active"
+                                    to="skill_section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={1000}
+                                >
+                                    <div className="nav-link">Skills</div>
+                                </Link>
+                            </li>
+                            <li className="nav-item ml-2 mr-4">
+                                <Link
+                                    activeClassName="active"
+                                    to="project_section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={1000}
+                                >
+                                    <div className="nav-link">Projects</div>
+                                </Link>
+                            </li>
+                            <li className="nav-item ml-2 mr-4">
+                                <Link
+                                    activeClassName="active"
+                                    to="aboutme_section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={1000}
+                                >
+                                    <div className="nav-link">About</div>
+                                </Link>
+                            </li>
+                            <li className="nav-item ml-2 mr-4">
+                                <Link
+                                    activeClassName="active"
+                                    to="contact_section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={1000}
+                                >
+                                    <div className="nav-link">Contact</div>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-
         );
     }
 }

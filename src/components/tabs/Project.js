@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import projects from './projects.json'
-import { withStyles } from '@material-ui/core/styles';
+// import { withStyles } from '@material-ui/core/styles';
 import {
     Grid,
     Card,
@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core/';
 import { useTheme } from '@material-ui/core/styles';
 import {
-    Row
+    Row, Carousel
 } from 'react-bootstrap';
 
 const useStyles = theme => ({
@@ -66,9 +66,10 @@ export default function Project() {
                             <Row>
                                 <a
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     href={elem.github}
                                     className="github_style">
-                                    <img height="40px" src={elem.svg}></img>
+                                    <img alt="" height="40px" src={elem.svg}></img>
                                 </a>
                             </Row>
                             <Row>
@@ -81,6 +82,7 @@ export default function Project() {
                                     />
                                     <div >
                                         <img
+                                            alt="" 
                                             className="coverpic_style"
                                             height="150px"
                                             src={elem.image} />
@@ -106,9 +108,23 @@ export default function Project() {
                                             <DialogTitle id="responsive-dialog-title">{elem.name}</DialogTitle>
                                             <DialogContent>
                                                 <div style={{ borderStyle: "solid", borderColor: "black" }}>
-                                                    <img width="500px" src={elem.modalImage}></img>
+                                                    <Carousel interval={2500}>
+                                                        {
+                                                            elem.modalImage.map((pic => (
+                                                                <Carousel.Item>
+                                                                    <img
+                                                                        className="d-block w-100"
+                                                                        src={pic}
+                                                                        alt="First slide"
+                                                                    />
+                                                                </Carousel.Item>
+                                                            )))
+                                                        }
+
+                                                    </Carousel>
                                                 </div>
                                                 <DialogContentText>
+                                                    {console.log(elem.dialogData)}
                                                     <div
                                                         className="mt-2"
                                                         dangerouslySetInnerHTML={{ __html: elem.dialogData }}>
@@ -118,9 +134,10 @@ export default function Project() {
                                             <DialogActions>
                                                 <a
                                                     target="_blank"
+                                                    rel="noopener noreferrer"
                                                     href={elem.github}
                                                     className="github_style_modal">
-                                                    <img height="40px" src={elem.svg}></img>
+                                                    <img alt="" height="40px" src={elem.svg}></img>
                                                 </a>
                                                 <Button onClick={handleClose} color="primary" autoFocus>
                                                     Done
