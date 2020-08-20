@@ -10,7 +10,7 @@ class Home extends Component {
     state = {}
     render() {
         return (
-            <div className="main-div">
+            <div className="main-div" style={{ overflowX: 'hidden' }}>
                 <NavBar />
                 <div className="data-div">
                     <Welcome id="welcome_section" />

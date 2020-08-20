@@ -36,8 +36,10 @@ class Contact extends Component {
     render() {
         return (
             <div id="contact_section" className="contact-bg">
-                <div className="" >
-                    <h1 className="tabs-heading" style={{ padding: "50px" }}><u>Let's Talk!</u></h1>
+                <div className="" style={{ padding: "50px" }}>
+                    <h1 className="tabs-heading">
+                        <u>Let's talk!</u>
+                    </h1>
                 </div>
                 <Row className="show-grid form-row-style" float="center">
                     <Col className="form-div-style col-lg-5 col-sm-12">

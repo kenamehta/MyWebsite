@@ -47,9 +47,13 @@ export default function Project() {
         }
     }, [open]);
     const classes = useStyles();
-    return (<div id="project_section" className="project-bg">
-        <div className="" >
-            <h1 className="tabs-heading" style={{ padding: "50px" }}><u>Projects</u></h1>
+    return (
+        <div id="project_section" className="project-bg">
+            <div className="" style={{ padding: "50px" }}>
+                <h1 className="tabs-heading">
+                    <u>Projects</u>
+                </h1>
+            </div>
 
             <div className={classes.root + " mt-2 project-inner-bg"}>
                 <Grid
@@ -82,7 +86,7 @@ export default function Project() {
                                     />
                                     <div >
                                         <img
-                                            alt="" 
+                                            alt=""
                                             className="coverpic_style"
                                             height="150px"
                                             src={elem.image} />
@@ -147,8 +151,8 @@ export default function Project() {
                             </Row>
                         </Grid>
                     ))}
-                </Grid></div> </div>
-    </div>);
+                </Grid></div>
+        </div>);
 }
 
 // export default withStyles(useStyles)(Project);
