@@ -8,5 +8,10 @@
         "portfolio",
         "kena",
         "mehta"
+    ],
+    "buildpacks": [
+        {
+            "url": "mars/create-react-app"
+        }
     ]
 }
