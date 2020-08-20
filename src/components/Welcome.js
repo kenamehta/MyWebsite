@@ -13,9 +13,9 @@ class Welcome extends Component {
                 <Particles
                     style={{ position: "absolute" }}
                     params={particles} />
-                <div className="main_enclose">
+                <div className="main_enclose col-sm-12 col-lg-6 col-md-7">
                     <div className="header__text-box">
-                        <div className="heading-primary ml-2">
+                        <div className="heading-primary">
                             <div className="heading-primary--main">Hi, I'm <span className="name-text">Kena Mehta</span>, <br /> A Full-Stack Developer!</div>
                         </div>
                     </div>
