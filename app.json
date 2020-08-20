@@ -1,7 +1,7 @@
 {
     "name": "kena mehta",
     "description": "kena mehta website deployment",
-    "repository": "https://github.com/kenamehta/MyWebsite",
+    "repository": "https://github.com/kenamehta/MyWebsite.git",
     "logo": "https://github.com/kenamehta/MyWebsite/public/logo.png",
     "keywords": [
         "react",
