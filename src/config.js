@@ -1,2 +1,2 @@
-const configKey = "user_28JuJrqm1fERUP8djWWVl";
+const configKey = "user_L7nCWZEN26TZljC5AwUUy";
 export default configKey;
