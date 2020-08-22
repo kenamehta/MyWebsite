@@ -68,22 +68,25 @@ export default function Project() {
                     {projects.data.map(elem => (
                         <Grid item xs={12} sm={6} md={3} key={elem.id}>
                             <Row>
-                                <a
+                                {/* <a
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     href={elem.github}
                                     className="github_style">
                                     <img alt="" height="40px" src={elem.svg}></img>
-                                </a>
+                                </a> */}
                             </Row>
                             <Row>
+
                                 <Card
                                     className={"project_card_style_" + elem.id + " project_card_style"}
                                     onClick={() => { handleClickOpen(elem.id); }}>
-                                    <CardHeader
-                                        className="card_title"
-                                        title={elem.name}
-                                    />
+                                    <div>
+                                        <CardHeader
+                                            className="card_title"
+                                            title={elem.name}
+                                        /></div>
+
                                     <div >
                                         <img
                                             alt=""
@@ -149,6 +152,19 @@ export default function Project() {
                                             </DialogActions>
                                         </Dialog>) : ""}
                             </Row>
+                            <div className="mt-2">
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={elem.github}
+                                >
+                                    <img
+                                        className="github_style"
+                                        alt=""
+                                        height="40px"
+                                        src={elem.svg}></img>
+                                </a>
+                            </div>
                         </Grid>
                     ))}
                 </Grid></div>

@@ -139,16 +139,11 @@ heading-primary {
   background: linear-gradient(160deg,#ffe4e1 60%, white 60%)!important;
   min-height:80vh;
 }  
-.github_style{
-  background-color:lightgray ;
-  border-radius:10px;
-}
+
 .github_style:hover{
-  transform: scale(2);
+  transform: scale(1.15);
 }
-.github_style_modal:hover{
-  transform: scale(1.05);
-}
+
 .view-project-style{
   border-style: solid;
   border-color: white;
