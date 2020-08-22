@@ -68,19 +68,10 @@ export default function Project() {
                     {projects.data.map(elem => (
                         <Grid item xs={12} sm={6} md={3} key={elem.id}>
                             <Row>
-                                {/* <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href={elem.github}
-                                    className="github_style">
-                                    <img alt="" height="40px" src={elem.svg}></img>
-                                </a> */}
-                            </Row>
-                            <Row>
 
                                 <Card
                                     className={"project_card_style_" + elem.id + " project_card_style"}
-                                    onClick={() => { handleClickOpen(elem.id); }}>
+                                    >
                                     <div>
                                         <CardHeader
                                             className="card_title"
@@ -98,7 +89,8 @@ export default function Project() {
                                         {elem.description}
                                         <div
                                             className="view-project-style"
-                                            key={elem.id}>
+                                            key={elem.id}
+                                            onClick={() => { handleClickOpen(elem.id); }}>
                                             View
                                         </div>
 
