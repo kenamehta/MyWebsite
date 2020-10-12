@@ -108,7 +108,7 @@ class Contact extends Component {
                                 height="25px"
                                 src="resume.png" alt="LinkedIn">
                             </img>
-                        </a> | kenakmehta@gmail.com</div>
+                        </a> </div>
                 </Row>
             </div>
         );
